@@ -1,0 +1,509 @@
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 400px) {}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) {
+    .nav-link {
+        width: 100%;
+        margin-left: 50% !important;   
+        
+    }
+    
+    .navbar-nav {
+        padding-left: 0 !important;
+    }
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
+
+@font-face {
+    font-family: font1;
+    src: url(../media/font1.ttf);
+}
+
+@font-face {
+    font-family: font2;
+    src: url(../media/font2.ttf);
+}
+
+@font-face {
+    font-family: font3;
+    src: url(../media/font3.ttf);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.a-fix {
+    padding-top: 75px !important;
+    margin-top: -75px !important;
+}
+
+.a-fix1 {
+    padding-top: 150px !important;
+    margin-top: -150px !important;
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: hsl(0, 0%, 91%);
+
+}
+
+.texture {
+    background-image: url("../media/texture.png")
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show > .nav-link {
+    color: hsl(1, 89%, 48%);
+    font-weight: bold;
+    border-bottom: solid 0.25rem;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    background-color: darkviolet;
+}
+
+.my-6 {
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+}
+
+.me-6 {
+    margin-bottom: 20rem;
+}
+
+.mb-6 {
+    margin-bottom: 20rem;
+}
+
+.mt-6 {
+    margin-top: 12rem;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 0.9;
+}
+
+.nav-link {
+    color: hsl(0, 0%, 91%);
+    text-shadow: 0px 0px 10px #000000;
+    transition: all .3s;
+    border-bottom: solid 0.25rem hsla(0, 0%, 100%, 0);
+
+}
+
+
+.nav-mobile-width {
+    width: 35%;
+}
+
+.nav-link:hover {
+    text-shadow: 0px 0px 13px #000000;
+    color: hsl(0, 0%, 69%);
+
+}
+
+
+
+body {
+    font-family: font3;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28232, 232, 232, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    transition: all 0.5s;
+}
+
+.navbar-toggler-icon:hover {
+    opacity: 0.7;
+}
+
+
+.navbar-toggler {
+    border: 2px solid hsl(0, 0%, 91%);
+    transition: all 0.5s;
+}
+
+.navbar-toggler:hover {
+    opacity: 0.7;
+}
+
+.carousel-caption {}
+
+.caritem2::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: black;
+    opacity: 0.7;
+
+}
+
+.c1-position {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-35%);
+
+}
+
+.c2-position {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.carousel-caption h2 {
+    font-size: 5vw;
+
+}
+
+.carousel-caption h3 {
+    font-size: 3vw;
+
+}
+
+.carousel-caption h1 {
+    font-size: 7vw;
+
+}
+
+.car-item1 {
+    background-image: url("../media/cpic2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 0;
+    width: 100%;
+    padding-top: 56.25%;
+    box-shadow: inset 0 0 0 1000px hsla(0, 0%, 0%, 0.6);
+
+}
+
+.main-logo {
+    height: 32vw;
+    width: 32vw;
+    border-radius: 50%;
+}
+
+.bplogo {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+
+}
+
+.smlogo {
+    height: 1.75rem;
+    width: 1.75rem;
+    transition: all 0.5s;
+}
+
+.smlogo:hover {
+    opacity: 0.6;
+}
+
+.flogo {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.table-background {
+    background-color: hsl(0, 0%, 36%);
+    color: hsl(0, 0%, 91%);
+    border-radius: 5px;
+}
+
+#about-pic1 {
+    background-image: url("../media/about1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 30rem;
+    width: 100%;
+}
+
+#about-pic2 {
+    background-image: url("../media/about2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 25rem;
+    width: 100%;
+}
+
+#about-pic3 {
+    background-image: url("../media/about3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 25rem;
+    width: 100%;
+}
+
+#about-pic4 {
+    background-image: url("../media/about4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 25rem;
+    width: 100%;
+}
+
+.myhr {
+    height: 5px;
+    border-radius: 5px;
+    margin: 25px;
+    border: none;
+    opacity: 1;
+    background-color: hsl(1, 89%, 48%);
+}
+
+.myhr1 {
+    height: 5px;
+    border-radius: 5px;
+    width: 45%;
+    border: none;
+    opacity: 1;
+    background-color: hsl(1, 89%, 48%);
+}
+
+.aosOverflow {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.parallax1 {
+    background-image: url("../media/pic7.jpg");
+    box-shadow: inset 0 0 0 1000px hsla(0, 0%, 0%, 0.5);
+    min-height: 20vw;
+
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+
+.menu {
+    color: white;
+    border: 0.75rem solid #ffffff;
+    padding: 1rem 2rem 1rem 2rem;
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+.menu-box {
+    background-color: hsl(0, 0%, 90%);
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.menu-box:hover {
+    box-shadow: 0px 0px 5px hsla(0, 0%, 0%, 0.3);
+}
+
+.font2 {
+    font-family: font2;
+}
+
+
+
+.item {
+    object-fit: cover;
+    height: 50vh;
+    transition: all 0.5s;
+}
+
+
+.item:hover {
+    filter: brightness(50%);
+
+}
+
+.contact-box {
+    box-shadow: 0px 0px 10px #000000;
+    background-color: white;
+}
+
+#message {
+    height: 10rem;
+}
+
+#map {
+    height: 40rem;
+
+}
+
+.bpfooter {
+    margin: 3rem 30rem 3rem 30rem;
+}
+
+.icons {
+    font-size: 4rem;
+    color: hsla(0, 0%, 0%, 1);
+    transition: all 0.5s;
+}
+
+.icons:hover {
+    color: hsl(1, 89%, 48%);
+}
+
+.collapseArrow {
+    color: hsl(1, 89%, 48%);
+    transition: all 0.5s;
+}
+
+.collapseArrow:hover {
+    color: hsla(0, 0%, 0%, 0.6);
+}
+
+.carouselArrow {
+    color: hsl(1, 89%, 48%);
+    font-size: 3rem;
+}
+
+.bottom-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+}
+
+.bottom-links ul {
+    list-style: none;
+}
+
+.bottom-links li {
+    float: left;
+    margin-left: 1rem;
+}
+
+.bottom-links li::after {
+    content: "\2022";
+    color: hsl(1, 89%, 48%);;
+    font-weight: bold;
+    display: inline;
+    width: 1em;
+    margin-left: 1rem;
+
+}
+
+.bottom-links li:last-child::after {
+    display: none;
+}
+
+.bottom-links a:hover {
+    color: hsl(1, 89%, 48%);
+}
+
+.gpic1 {
+    background-image: url("../media/pic1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    width: 100%;
+}
+
+.gpic2 {
+    background-image: url("../media/pic2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    width: 100%;
+}
+
+.gpic3 {
+    background-image: url("../media/pic3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    width: 100%;
+}
+
+.gpic4 {
+    background-image: url("../media/pic4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    width: 100%;
+}
+
+.gpic5 {
+    background-image: url("../media/pic5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    width: 100%;
+}
+
+.gpic6 {
+    background-image: url("../media/pic6.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    width: 100%;
+}
+
+.gpic7 {
+    background-image: url("../media/pic7.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    width: 100%;
+}
+
+.gpic8 {
+    background-image: url("../media/pic8.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    width: 100%;
+}
+
+.gpic9 {
+    background-image: url("../media/pic9.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100%;
+    width: 100%;
+}
